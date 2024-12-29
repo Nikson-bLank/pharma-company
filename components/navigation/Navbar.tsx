@@ -22,19 +22,29 @@ function Navbar({}: Props) {
                     <div className="flex justify-end items-center h-full gap-4">
                         <ul className="flex gap-4">
                             <li>
-                                <Link href={"/"}>Home</Link>
+                                <Link href={"/"} className="nav-link active">
+                                    Home
+                                </Link>
                             </li>
                             <li>
-                                <Link href={"/"}>About</Link>
+                                <Link href={"/"} className="nav-link">
+                                    About
+                                </Link>
                             </li>
                             <li>
-                                <Link href={"/"}>Services</Link>
+                                <Link href={"/"} className="nav-link">
+                                    Services
+                                </Link>
                             </li>
                             <li>
-                                <Link href={"/"}>Packages</Link>
+                                <Link href={"/"} className="nav-link">
+                                    Packages
+                                </Link>
                             </li>
                             <li>
-                                <Link href={"/"}>Blogs</Link>
+                                <Link href={"/"} className="nav-link">
+                                    Blogs
+                                </Link>
                             </li>
                         </ul>
                         <div className="flex items-center divide-x-2">
@@ -62,7 +72,7 @@ function Navbar({}: Props) {
                             </div>
 
                             <div className="px-2">
-                                {/* <button className=" hover: bg-gradient-to-r from-gradient-from to-gradient-to">
+                                {/* <button className="test-btn btn">
                                     Make Appointment
                                 </button> */}
                                 <Button>Make Appointment</Button>

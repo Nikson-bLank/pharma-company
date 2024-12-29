@@ -34,9 +34,9 @@ function PremiumServiceCard({}: Props) {
                     className="text-sm text-tertiary hover:text-link-hover"
                     href={"/"}
                 >
-                    <span className="flex items-center gap-1">
+                    <span className="flex items-center gap-1 group ">
                         READ MORE
-                        <FiArrowUpRight />
+                        <FiArrowUpRight className="group-hover:rotate-45 transition-transform duration-500 text-lg" />
                     </span>
                 </Link>
             </div>
