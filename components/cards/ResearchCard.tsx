@@ -1,25 +1,20 @@
-import React from "react";
-import { Card } from "../ui/card";
-import Image from "next/image";
 import { scientist1 } from "@/lib/mediaImport";
-import { GiSoapExperiment } from "react-icons/gi";
+import Image from "next/image";
 import Link from "next/link";
-import { FiArrowUpRight } from "react-icons/fi";
 import { AiOutlineUser } from "react-icons/ai";
+import { FiArrowUpRight } from "react-icons/fi";
+import { Card } from "../ui/card";
 
-type Props = {};
-
-function ResearchCard({}: Props) {
+function ResearchCard() {
     return (
         <Card className="p-5 border-[#f2f5ff] shadow-none rounded-[17px]">
             <div className="w-full rounded-[12px] relative overflow-hidden group">
-               
                 <Image
                     className="w-full rounded-[12px] group-hover:scale-125 -z-10 transition-all duration-500 ease-in-out"
                     src={scientist1}
                     alt="Sunset in the mountains"
                 />
-                 <div className="absolute bg-gradient-to-r from-gradient-from to-gradient-to px-4 py-2.5 top-0 right-0 rounded-bl-[12px] z-10">
+                <div className="absolute bg-gradient-to-r from-gradient-from to-gradient-to px-4 py-2.5 top-0 right-0 rounded-bl-[12px] z-10">
                     <span className="text-white">DECEMBER 29, 2024</span>
                 </div>
             </div>

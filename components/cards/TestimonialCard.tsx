@@ -3,14 +3,12 @@ import { Card } from "../ui/card";
 import { Avatar, AvatarFallback, AvatarImage } from "../ui/avatar";
 import { FaStar } from "react-icons/fa";
 
-type Props = {};
-
-function TestimonialCard({}: Props) {
+function TestimonialCard() {
     return (
         <Card className="border-none shadow-lg p-[30px] rounded-3xl">
             <div className="grid grid-cols-1 gap-y-6">
                 <div className="flex gap-4 items-center">
-                    <Avatar className="border-2 border-primary size-16" >
+                    <Avatar className="border-2 border-primary size-16">
                         <AvatarImage src="https://github.com/shadcn.png" />
                         <AvatarFallback>CN</AvatarFallback>
                     </Avatar>

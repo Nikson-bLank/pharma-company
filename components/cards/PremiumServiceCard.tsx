@@ -10,7 +10,7 @@ type Props = {};
 
 function PremiumServiceCard({}: Props) {
     return (
-        <Card className="overflow-hidden shadow-lg border-none">
+        <Card className="overflow-hidden  border-none">
             <Image
                 className="w-full"
                 src={scientist1}
